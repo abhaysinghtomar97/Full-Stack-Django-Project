@@ -1,0 +1,16 @@
+
+=> Basics to start Server
+    python -m venv venv
+    .\venv\Scripts\activate.ps1
+    pip install django
+    django-admin startproject FSP1 
+    cd fsp1
+    python manage.py runserver
+
+=> creating Super User
+    python manage.py createsuperuser
+
+=>
+ static media (import os)
+ URL.py - >import settings, static
+
