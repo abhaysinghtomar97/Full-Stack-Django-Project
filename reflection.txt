@@ -11,6 +11,20 @@
     python manage.py createsuperuser
 
 =>
- static media (import os)
- URL.py - >import settings, static
+    static media (import os)
+    URL.py - >import settings, static
 
+=> new app (tweet)
+     python manage.py startapp tweet
+
+     urls.py(main app) copy past(new app)
+            testing to render html(views.py )
+
+     add path in main(urls.py) for new app
+
+     add new app in Installedapps in settings.py
+
+=> template
+    to make template folder in each app :
+     'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        
