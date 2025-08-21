@@ -38,3 +38,5 @@
     import tweet-> register
 
 =>tweet> Forms.py -> TweetForm
+
+=> tweet> views.py -> import -> list(), create(), edit(), delete()
