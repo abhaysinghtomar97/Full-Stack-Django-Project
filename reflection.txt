@@ -36,3 +36,5 @@
 
 => admin.py
     import tweet-> register
+
+=>tweet> Forms.py -> TweetForm
