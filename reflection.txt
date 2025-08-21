@@ -28,3 +28,6 @@
     to make template folder in each app :
      'DIRS': [os.path.join(BASE_DIR, 'templates')],
         
+=> new folder template and static,
+    in template -> layout.html -> {% load static %}
+    
