@@ -30,4 +30,9 @@
         
 => new folder template and static,
     in template -> layout.html -> {% load static %}
-    
+
+=> models.py
+    class Tweet -> make migrations 
+
+=> admin.py
+    import tweet-> register
