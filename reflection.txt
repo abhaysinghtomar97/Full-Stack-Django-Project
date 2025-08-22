@@ -40,3 +40,7 @@
 =>tweet> Forms.py -> TweetForm
 
 => tweet> views.py -> import -> list(), create(), edit(), delete()
+
+=> tweet_list.html -> card, style
+=> tweet_form.html -> submit form created -> edit btn , delete btn
+=> views.py, url.py, layout.html -> bug fixing
