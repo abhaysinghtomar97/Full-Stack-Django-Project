@@ -21,10 +21,12 @@
         <h5 class="card-title">{{ tweet.user.username }}</h5>
         <p class="card-text">{{ tweet.text }}</p>
         <small class="text-muted">Posted on {{ tweet.created_at|date:"M d, Y H:i" }}</small>
+        {% if tweet.user == user %}
         <div class="mt-2">
           <a href="{% url 'tweet_edit' tweet.id %}" class="btn btn-primary btn-sm">Edit</a>
           <a href="{% url 'tweet_delete' tweet.id %}" class="btn btn-danger btn-sm">Delete</a>
         </div>
+        {% endif %}
       </div>
     </div>
   {% endfor %}

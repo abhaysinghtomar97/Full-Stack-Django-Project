@@ -44,3 +44,17 @@
 => tweet_list.html -> card, style
 => tweet_form.html -> submit form created -> edit btn , delete btn
 => views.py, url.py, layout.html -> bug fixing
+
+=>Security - To specify which content needs login/privicy
+    from django.confib.auth.decorators import login_required
+    add @login_required just before that class..
+=>UserRegistrationForm -> forms.py
+=>main template > registration > :(create)
+                    register.html
+                    login.html
+                    logged_out.html  
+=>views.py > register class , import login
+=>settings.py && urls.py -> add account 
+=>templates -> content done
+=>urls.py debugging
+#learn Clean  DATA
